@@ -14,8 +14,9 @@ let g:startify_lists = [
 
 " Bookmarks
 let g:startify_bookmarks = [
-            \ { 'c': '~\AppData\Local\nvim' },
-            \ { 'i': 'C:\Users\Carolyn\OneDrive\projects' }
+            \ { 'c': '~\AppData\Local\nvim\init.vim' },
+            \ { 'i': 'C:\Users\Carolyn\OneDrive\web-development\projects' },
+            \ { 'z': 'C:\Users\Carolyn\OneDrive\web-development\courses' }
             \ ]
 
 

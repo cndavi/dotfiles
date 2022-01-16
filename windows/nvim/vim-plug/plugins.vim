@@ -9,20 +9,19 @@ call plug#begin('C:\Users\Carolyn\AppData\Local\nvim\autoload\plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
+    " Lualine
+    Plug 'hoob3rt/lualine.nvim'
+
     " Intellisense with coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " Project Management with Startify
     Plug 'mhinz/vim-startify'
 
-    " Status Line with Airline
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-
-    " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-rooter'
+    " TEST
+    Plug 'kristijanhusak/defx-git'
+    Plug 'kristijanhusak/defx-icons'
+    Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
 call plug#end()
 
