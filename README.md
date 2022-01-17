@@ -1,1 +1,1 @@
-# my dotfiles backup for windows and mac
+# my dotfiles backup for nvim
