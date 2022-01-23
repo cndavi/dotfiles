@@ -1,0 +1,10 @@
+[user]
+	name = Carolyn Ndavi
+	email = cn.ndavi@hotmail.com.com
+[core]
+	excludesfile = ~/.gitignore_global
+    editor = nvim
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
