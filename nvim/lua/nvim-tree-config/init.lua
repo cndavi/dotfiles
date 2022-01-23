@@ -1,5 +1,3 @@
--- following options are the default
--- each of these are documented in `:help nvim-tree.OPTION_NAME`
 vim.g.nvim_tree_icons = {
   default = "",
   symlink = "",
@@ -36,7 +34,7 @@ local tree_cb = nvim_tree_config.nvim_tree_callback
 nvim_tree.setup {
   disable_netrw = true,
   hijack_netrw = true,
-  open_on_setup = false,
+  pen_on_setup = false,
   ignore_ft_on_setup = {
     "startify",
     "dashboard",
@@ -70,7 +68,7 @@ nvim_tree.setup {
     timeout = 500,
   },
   view = {
-    width = 25,
+    width = 30,
     height = 30,
     hide_root_folder = false,
     side = "left",
