@@ -1,0 +1,6 @@
+{
+  "date": {
+    "prefix": ["cd"],
+    "body": "--${VIM:system('date')}"
+  }
+}

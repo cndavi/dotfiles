@@ -1,11 +1,20 @@
--- nord theme
-require('lualine').setup({
-  options = {theme = 'nord', section_separators = '', component_separators = ''},
+require('lualine').setup {
+  options = {
+    theme = 'onenord', 
+    section_separators = '', 
+    component_separators = ''
+  },
   extensions = {'nvim-tree'}
-})
+}
+
+-- nord theme
+-- theme = 'nord'
+
+-- one nord theme
+-- theme = 'onenord'
+
+-- nightfox theme
+-- theme = 'nightfox'
 
 -- rose pine theme
--- require('lualine').setup({
---   options = {theme = 'rose-pine', section_separators = '', component_separators = ''},
---   extensions = {'nvim-tree'}
--- })
+-- theme = 'rose-pine'
