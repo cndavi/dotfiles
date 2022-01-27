@@ -1,2 +1,2 @@
 # dotfiles
-these are my backup dotfiles
+my personal dotfiles
